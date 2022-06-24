@@ -1,4 +1,5 @@
-name: custom
+name: custom-workflow 
+
 on: push 
 
 jobs:
