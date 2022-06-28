@@ -1,0 +1,5 @@
+FROM ALPINE3.8.2
+RUN yum install git 
+CMD ["echo","how are you "]
+COPY ck/.war .
+ENTRYPOINT [ "executable" ]
